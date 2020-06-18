@@ -1,0 +1,32 @@
+body {
+   min-height: 250vh;
+   width: 1140px;
+   padding: 20px;
+   margin: 0px auto;
+}
+
+.toc {
+   position: fixed;
+   left: 0;
+}
+
+.toc-h3 {
+   margin-left: 20px;
+}
+.toc-h2 {
+   margin-left: 10px;
+}
+
+.toc-active {
+   color: red;
+   font-size: 40px;
+}
+
+.toc-active a {
+   color: orange;
+   font-size: 40px;
+}
+
+article {
+   padding-left: 50%;
+}
